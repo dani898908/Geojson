@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import  HomeMap from "./leaflet/MapComponentP";
+import  HomeMap from "./MapComponentP";
 
 //import {MapComponent }from "./MapComponent";
 export default function App() {

@@ -3,8 +3,9 @@ import { Component } from "react";
 import L from "leaflet";
 import "leaflet-easybutton";
 import "leaflet/dist/leaflet.css";
-import archivoGeoJSON from "src/geojson.json";
+import archivoGeoJSON from "./geojson.json";
 import * as $ from "jquery";
+
 
 const southWest = L.latLng(40.46751056468401, -3.8018542796372);
 const northEast = L.latLng(40.46751056468401, -3.8018542796372);
@@ -64,7 +65,11 @@ class HomeMap extends Component {
 			onEachFeature: this.onEachFeature_f,
 			style: this.agglosFilter,
 		}).addTo(map);
+        var helloPopup = L.popup().setContent('Click al edificio!');
 
+			L.easyButton('<i class="far fa-hand-point-right">Click aqui</i>', function(btn, map){
+				helloPopup.setLatLng(map.getCenter()).openOn(map);
+			}).addTo( map );
 		//var plantasEdificio = L.layerGroup().addTo(map);
 
 		var plantaDos = L.geoJson(archivoGeoJSON, {
