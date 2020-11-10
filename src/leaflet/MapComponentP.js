@@ -3,7 +3,7 @@ import { Component } from "react";
 import L from "leaflet";
 import "leaflet-easybutton";
 import "leaflet/dist/leaflet.css";
-import archivoGeoJSON from "C:/Users/daniela bonilla/Desktop/inicio/inicio2/src/data/geojson.json";
+import archivoGeoJSON from "src/geojson.json";
 import * as $ from "jquery";
 
 const southWest = L.latLng(40.46751056468401, -3.8018542796372);
