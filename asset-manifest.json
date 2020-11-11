@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Geojson/static/css/main.a9e139c9.chunk.css",
+    "main.js": "/Geojson/static/js/main.8be4a87f.chunk.js",
+    "main.js.map": "/Geojson/static/js/main.8be4a87f.chunk.js.map",
+    "runtime-main.js": "/Geojson/static/js/runtime-main.54c5857f.js",
+    "runtime-main.js.map": "/Geojson/static/js/runtime-main.54c5857f.js.map",
+    "static/css/2.7c35e809.chunk.css": "/Geojson/static/css/2.7c35e809.chunk.css",
+    "static/js/2.ecf2eba4.chunk.js": "/Geojson/static/js/2.ecf2eba4.chunk.js",
+    "static/js/2.ecf2eba4.chunk.js.map": "/Geojson/static/js/2.ecf2eba4.chunk.js.map",
+    "index.html": "/Geojson/index.html",
+    "precache-manifest.d5948b5ad5d9cf9d0f53b23077c021a9.js": "/Geojson/precache-manifest.d5948b5ad5d9cf9d0f53b23077c021a9.js",
+    "service-worker.js": "/Geojson/service-worker.js",
+    "static/css/2.7c35e809.chunk.css.map": "/Geojson/static/css/2.7c35e809.chunk.css.map",
+    "static/css/main.a9e139c9.chunk.css.map": "/Geojson/static/css/main.a9e139c9.chunk.css.map",
+    "static/js/2.ecf2eba4.chunk.js.LICENSE.txt": "/Geojson/static/js/2.ecf2eba4.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.54c5857f.js",
+    "static/css/2.7c35e809.chunk.css",
+    "static/js/2.ecf2eba4.chunk.js",
+    "static/css/main.a9e139c9.chunk.css",
+    "static/js/main.8be4a87f.chunk.js"
+  ]
+}
