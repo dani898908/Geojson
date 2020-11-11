@@ -310,7 +310,7 @@ list-style: none;
 box-sizing: border-box;
 display: block;
 border: none;
-color: rgba(141, 58, 58, 0.87);
+color: rgba(82, 74, 74, 0.87);
 background-color: transparent;
 text-align: left;
 margin: 0;
@@ -420,7 +420,7 @@ height: 0px;
     height: 70px;
     padding: 20px 10px 20 10px;
     cursor: pointer;
-    background-color: rgb(143, 126, 120);
+
     
   }
   #c1 div{
@@ -432,7 +432,7 @@ height: 0px;
 #expandable-container-visible > div:nth-child(1){
 
  padding: 6px;
- background-color: rgba(238, 158, 158, 0.4);
+ background-color: rgba(245, 103, 9, 0.5);
  margin-right: 6px;
  display: inline-flex;
  height: 120px;
@@ -440,7 +440,7 @@ height: 0px;
 
 #expandable-container-visible > div:nth-child(2){
   padding: 6px;
-  background-color: rgba(241, 142, 142, 0.4);
+  background-color: rgba(245, 103, 9, 0.5);
   margin-right: 6px;
   display: inline-flex;
 height: 120px;
@@ -448,7 +448,7 @@ height: 120px;
 
 #expandable-container-visible > div:nth-child(3){
   padding: 6px;
-  background-color: rgba(235, 149, 149, 0.4);
+  background-color: rgba(245, 103, 9, 0.5);
   margin-right: 6px;
   display: inline-flex;
   height: 120px;
