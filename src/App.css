@@ -439,12 +439,12 @@ border-style: none;
   padding: 1rem;
 	box-sizing: border-box;
 	border-radius: 6px;
-	background-color: rgba(0, 0, 0, 0.15);
+	background-color: rgba(231, 116, 8, 0.15);
 	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
   display: none;
   cursor: pointer;
   flex-direction: row;
-  width: 380px;
+  width: 310px;
   height: 150px;
 }
 
@@ -509,7 +509,7 @@ height: 0px;
 #expandable-container-visible > div:nth-child(1){
 
  padding: 6px;
- background-color: rgba(0,0,0,0.4);
+ background-color: rgba(238, 158, 158, 0.4);
  margin-right: 6px;
  display: inline-flex;
  height: 120px;
@@ -517,7 +517,7 @@ height: 0px;
 
 #expandable-container-visible > div:nth-child(2){
   padding: 6px;
-  background-color: rgba(0,0,0,0.4);
+  background-color: rgba(241, 142, 142, 0.4);
   margin-right: 6px;
   display: inline-flex;
 height: 120px;
@@ -525,7 +525,7 @@ height: 120px;
 
 #expandable-container-visible > div:nth-child(3){
   padding: 6px;
-  background-color: rgba(0,0,0,0.4);
+  background-color: rgba(235, 149, 149, 0.4);
   margin-right: 6px;
   display: inline-flex;
   height: 120px;
@@ -536,15 +536,17 @@ h1{
   margin-left: 0px;
   align-items: center;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #fff;
 }
 
 
 #segunda-planta{
- 
+ color: #fff;
   top: 15px;
 }
 #primera-planta{
   top: 15px;
+  color: #fff;
 }
 
 #tercera-planta{
@@ -554,6 +556,7 @@ height: 7px;
 margin: 2px;
 position: relative;
 top: 15px;
+color: #fff;
 
 }
 #expandable-container-visible > div:nth-child(3) > span{
@@ -563,7 +566,7 @@ top: 15px;
 input#primera-planta{
   border-radius: 3px;
   height: 12px;
-  
+  color: #fff;
  }
 input#segunda-planta{
  border-radius: 3px;
@@ -575,3 +578,7 @@ input#tercera-planta{
   height: 12px;
   
  }
+
+#text{
+  color: #fff;
+}

@@ -23,7 +23,7 @@ config.params = {
 };
 config.tileLayer = {
 	//Original:
-	uri: "https://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png",
+	uri: "https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}@2x.png",
 	attribution:
 		'&amp;copy <a href="http://osm.org/copyright">OpenStreetMap</a> contributors',
 	params: {
@@ -113,11 +113,11 @@ class HomeMap extends Component {
 			controlContent +=
 				'<div id="c2"><div id="expandable-container-visible">';
 			controlContent +=
-				'<div id="planta1" class="radio-input"><label><input id="primera-planta" type="radio" name="planta" class="Planta"/>Primera Planta</label></div>';
+				'<div id="planta1" class="radio-input"><label><input id="primera-planta" type="radio" name="planta" class="Planta"/><h1>Primera Planta</h1></label></div>';
 			controlContent +=
-				'<div id="planta2" class="radio-input"><label><input id="segunda-planta" type="radio" name="planta" class="Planta"/>Segunda Planta</label></div>';
+				'<div id="planta2" class="radio-input"><label><input id="segunda-planta" type="radio" name="planta" class="Planta"/><h1>Segunda Planta</h1></label></div>';
 			controlContent +=
-				'<div id="planta3" class="radio-input"><label><input id="tercera-planta" type="radio" name="planta" class="Planta"/>Tercera Planta</label></div>';
+				'<div id="planta3" class="radio-input"><label><input id="tercera-planta" type="radio" name="planta" class="Planta"/><h1>Tercera Planta</h1></label></div>';
 			controlContent += "</div></div>";
 
 			wrapper.innerHTML = controlContent;
