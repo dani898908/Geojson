@@ -424,7 +424,7 @@ height: 0px;
     
   }
   #c1 div{
-   background-color: coral;
+   background-color: rgb(117, 111, 108);
     border-radius: 5px;
   }
 
@@ -459,7 +459,7 @@ h1{
   margin-left: 0px;
   align-items: center;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  color: #fff;
+  color: rgb(15, 14, 14);
 }
 
 
@@ -502,6 +502,3 @@ input#tercera-planta{
   
  }
 
-#text{
-  color: #fff;
-}

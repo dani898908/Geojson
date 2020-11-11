@@ -67,7 +67,7 @@ class HomeMap extends Component {
 		}).addTo(map);
         var helloPopup = L.popup().setContent('Inicia el tour, Clic al icono!');
 
-			L.easyButton('<i class="far fa-hand-point-right">Click aqui</i>', function(btn, map){
+			L.easyButton('<i class="far fa-hand-point-right">Clic aqui</i>', function(btn, map){
 				helloPopup.setLatLng(map.getCenter()).openOn(map);
 			}).addTo( map );
 		//var plantasEdificio = L.layerGroup().addTo(map);
