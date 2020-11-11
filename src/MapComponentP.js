@@ -14,7 +14,7 @@ const mybounds = L.latLngBounds(southWest, northEast);
 let config = {};
 config.params = {
 	center: [40.46751056468401, -3.8018542796372],
-	zoom: 19,
+	zoom: 18,
 	zoomSnap: 0.1,
 	minZoom: 3,
 	maxBounds: mybounds,
@@ -23,7 +23,7 @@ config.params = {
 };
 config.tileLayer = {
 	//Original:
-	uri: "https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}@2x.png",
+	uri: "https://stamen-tiles-{s}.a.ssl.fastly.net/toner/{z}/{x}/{y}.png",
 	attribution:
 		'&amp;copy <a href="http://osm.org/copyright">OpenStreetMap</a> contributors',
 	params: {
@@ -65,7 +65,7 @@ class HomeMap extends Component {
 			onEachFeature: this.onEachFeature_f,
 			style: this.agglosFilter,
 		}).addTo(map);
-        var helloPopup = L.popup().setContent('Click al edificio!');
+        var helloPopup = L.popup().setContent('Inicia el tour, Clic al icono!');
 
 			L.easyButton('<i class="far fa-hand-point-right">Click aqui</i>', function(btn, map){
 				helloPopup.setLatLng(map.getCenter()).openOn(map);
